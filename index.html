@@ -2455,8 +2455,14 @@ ul { list-style: none; }
         <p style="text-align:center;font-size:12px;color:var(--gray-500);margin-top:8px;">资质荣誉牌匾实拍</p>
       </div>
       <div style="flex:1 1 300px;min-width:260px;background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:10px;box-sizing:border-box;">
-        <img src="assets/cert-licenses.jpg" alt="广天科技资质证书：营业执照、安全生产许可证、涉密信息系统集成甲级资质、武器装备质量体系、ISO三体系认证、中国保密协会会员" loading="lazy" style="width:100%;height:320px;object-fit:contain;border-radius:6px;">
-        <p style="text-align:center;font-size:12px;color:var(--gray-500);margin-top:8px;">营业执照 · 涉密甲级 · 体系认证证书实拍</p>
+        <div class="img-placeholder light certificate-confidential" style="width:100%;height:320px;border-radius:6px;">
+          <div class="ph-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="ph-name">证照资料按核验程序提供</div>
+          <div class="ph-tip">敏感字段不在网页展示</div>
+        </div>
+        <p style="text-align:center;font-size:12px;color:var(--gray-500);margin-top:8px;">资质证照脱敏展示</p>
       </div>
     </div>
     <div class="certificates-grid reveal">
@@ -2486,27 +2492,30 @@ ul { list-style: none; }
       </div>
 
       <div class="certificate-card">
-        <div class="certificate-img">
-          <img src="assets/cert-高新技术企业.jpg" alt="高新技术企业证书" style="height:200px;width:100%;object-fit:contain;background:#fff;margin-bottom:16px;">
+        <div class="certificate-img img-placeholder light" style="height:200px;">
+          <div class="ph-name">证书状态待核验</div>
+          <div class="ph-tip">以现行有效证照为准</div>
         </div>
         <h4>高新技术企业</h4>
-        <p>西安市科学技术局认定</p>
+        <p>历史认定信息，当前状态以证书为准</p>
       </div>
 
       <div class="certificate-card">
-        <div class="certificate-img">
-          <img src="assets/cert-武器装备质量体系.jpg" alt="武器装备质量管理体系认证证书" style="height:200px;width:100%;object-fit:contain;background:#fff;margin-bottom:16px;">
+        <div class="certificate-img img-placeholder light" style="height:200px;">
+          <div class="ph-name">证书状态待核验</div>
+          <div class="ph-tip">以现行有效证照为准</div>
         </div>
         <h4>武器装备质量体系</h4>
-        <p>军品级质量认证（2018年取得）</p>
+        <p>历史认证信息，当前状态以证书为准</p>
       </div>
 
       <div class="certificate-card">
-        <div class="certificate-img">
-          <img src="assets/cert-保密协会会员.jpg" alt="中国保密协会会员单位证书" style="height:200px;width:100%;object-fit:contain;background:#fff;margin-bottom:16px;">
+        <div class="certificate-img img-placeholder light" style="height:200px;">
+          <div class="ph-name">会员证书状态待核验</div>
+          <div class="ph-tip">以现行有效证书为准</div>
         </div>
         <h4>中国保密协会会员</h4>
-        <p>行业组织认证会员</p>
+        <p>历史会员信息，当前状态以证书为准</p>
       </div>
 
       <div class="certificate-card">
