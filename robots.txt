@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /assets/.DS_Store
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://guangtian.pages.dev/sitemap.xml
