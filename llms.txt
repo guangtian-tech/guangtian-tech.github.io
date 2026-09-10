@@ -38,9 +38,9 @@
 
 - 电话：029-87800821、133-1925-8666
 - 邮箱：wwups@163.com
-- 官网：https://guangtian.pages.dev/
+- 官网：https://guangtian-tech.github.io/
 
 ## 主要页面
 
-- 首页：https://guangtian.pages.dev/
-- 站点地图：https://guangtian.pages.dev/sitemap.xml
+- 首页：https://guangtian-tech.github.io/
+- 站点地图：https://guangtian-tech.github.io/sitemap.xml
