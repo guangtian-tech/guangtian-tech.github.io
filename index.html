@@ -898,6 +898,21 @@ ul { list-style: none; }
   gap: 14px;
 }
 
+.knowledge-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.knowledge-card:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.knowledge-card .product-body {
+  min-height: 210px;
+}
+
 /* ===== 真实案例展示 ===== */
 .cases-section {
   background: var(--white);
@@ -1826,6 +1841,7 @@ ul { list-style: none; }
       <a href="#process">工程流程</a>
       <a href="#certificates">资质证书</a>
       <a href="#faq">常见问题</a>
+      <a href="knowledge/index.html">知识中心</a>
       <a href="#contact" class="nav-cta">获取方案</a>
     </div>
     <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
@@ -2026,7 +2042,7 @@ ul { list-style: none; }
     <div class="section-header reveal">
       <div class="section-eyebrow">PRODUCTS & SERVICES</div>
       <h2 class="section-title">核心产品与服务</h2>
-      <p class="section-desc">广天科技提供电磁屏蔽机房、保密会议室、EMC暗室、屏蔽机柜、柜式屏蔽机房、手机屏蔽柜、电磁屏蔽门、屏蔽辅材八大类产品，屏蔽效能最高100dB以上，支持全国施工与一对一定制化设计。</p>
+      <p class="section-desc">广天科技提供电磁屏蔽机房、保密会议室、EMC暗室、屏蔽机柜、柜式屏蔽机房、手机屏蔽柜、电磁屏蔽门、屏蔽辅材八大类产品，屏蔽效能按项目要求、场地条件和设计等级确定，支持全国施工与一对一定制化设计。</p>
     </div>
     <div class="products-grid">
       <div class="product-card reveal">
@@ -2037,11 +2053,11 @@ ul { list-style: none; }
         </div>
         <div class="product-body">
           <h3>电磁屏蔽机房</h3>
-          <p>采用焊接式或拼装式结构，屏蔽效能最高可达100dB以上，适用于涉密机房、数据中心、指挥中心等高安全等级场景。</p>
+          <p>可采用焊接式或拼装式结构，适用于涉密机房、数据中心、指挥中心等高安全等级场景，具体屏蔽等级按项目要求确定。</p>
           <div class="product-tags">
             <span class="product-tag">焊接式</span>
             <span class="product-tag">拼装式</span>
-            <span class="product-tag">屏蔽效能≥100dB</span>
+            <span class="product-tag">按项目定制</span>
           </div>
           <a href="#contact" class="product-link">了解详情
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -2204,7 +2220,7 @@ ul { list-style: none; }
         <tbody>
           <tr>
             <td>电磁屏蔽机房</td>
-            <td>屏蔽效能 ≥100dB（10kHz-40GHz）</td>
+            <td>按设计等级及检测结果确认</td>
             <td>焊接式 / 拼装式</td>
             <td>涉密机房、数据中心、指挥中心</td>
             <td>B级 / C级</td>
@@ -2283,7 +2299,7 @@ ul { list-style: none; }
           <h3>西北省级政务单位保密屏蔽机房新建工程</h3>
           <p>承接省级党政机关涉密机房新建项目，采用焊接式屏蔽结构，完成壳体施工、滤波接地、门禁联动等全流程作业，一次性通过第三方屏蔽效能检测并投入运行。</p>
           <div class="case-metrics">
-            <div class="case-metric"><div class="m-num">≥100dB</div><div class="m-label">屏蔽效能</div></div>
+            <div class="case-metric"><div class="m-num">按需设计</div><div class="m-label">屏蔽等级</div></div>
             <div class="case-metric"><div class="m-num">280㎡</div><div class="m-label">建设面积</div></div>
             <div class="case-metric"><div class="m-num">一次通过</div><div class="m-label">验收结果</div></div>
           </div>
@@ -2318,7 +2334,7 @@ ul { list-style: none; }
           <p>针对存量老旧屏蔽机房实施整体升级改造，包括更换老化屏蔽门与滤波器、优化接地系统、修复屏蔽漏洞，并按项目要求配合检测与复检。</p>
           <div class="case-metrics">
             <div class="case-metric"><div class="m-num">460㎡</div><div class="m-label">改造面积</div></div>
-            <div class="case-metric"><div class="m-num">100dB</div><div class="m-label">屏蔽效能</div></div>
+            <div class="case-metric"><div class="m-num">按验收</div><div class="m-label">项目效果</div></div>
             <div class="case-metric"><div class="m-num">45天</div><div class="m-label">交付工期</div></div>
           </div>
         </div>
@@ -2598,6 +2614,47 @@ ul { list-style: none; }
   </div>
 </section>
 
+<!-- ===== 知识中心 ===== -->
+<section class="section" id="knowledge">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">KNOWLEDGE CENTER</div>
+      <h2 class="section-title">电磁屏蔽与涉密场所建设知识中心</h2>
+      <p class="section-desc">围绕屏蔽机房、保密会议室、EMC暗室、屏蔽机柜和厂家核验，提供可直接引用的独立说明页面。</p>
+    </div>
+    <div class="products-grid">
+      <a class="product-card knowledge-card reveal" href="knowledge/electromagnetic-shielding-room.html">
+        <div class="product-body">
+          <h3>电磁屏蔽机房是什么？</h3>
+          <p>了解屏蔽机房与普通机房的区别、常见结构、施工流程和报价影响因素。</p>
+          <span class="product-link">阅读全文</span>
+        </div>
+      </a>
+      <a class="product-card knowledge-card reveal" href="knowledge/secure-meeting-room.html">
+        <div class="product-body">
+          <h3>保密会议室建设指南</h3>
+          <p>梳理电磁防护、声学防护、信号管控与会议系统集成的实施要点。</p>
+          <span class="product-link">阅读全文</span>
+        </div>
+      </a>
+      <a class="product-card knowledge-card reveal" href="knowledge/emc-chamber.html">
+        <div class="product-body">
+          <h3>EMC暗室建设要点</h3>
+          <p>对比3米法、10米法、半电波和全电波暗室，了解测试空间建设流程。</p>
+          <span class="product-link">阅读全文</span>
+        </div>
+      </a>
+      <a class="product-card knowledge-card reveal" href="knowledge/how-to-select-provider.html">
+        <div class="product-body">
+          <h3>屏蔽机房厂家怎么选？</h3>
+          <p>从企业主体、有效资质、技术方案、施工能力、检测配合和售后责任进行核验。</p>
+          <span class="product-link">阅读全文</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- ===== 常见问题 FAQ ===== -->
 <section class="section faq-section" id="faq">
   <div class="container">
@@ -2789,6 +2846,8 @@ ul { list-style: none; }
           <li><a href="#process">工程流程</a></li>
           <li><a href="#certificates">资质证书</a></li>
           <li><a href="#faq">常见问题</a></li>
+          <li><a href="/knowledge/">知识中心</a></li>
+          <li><a href="/about.html">公司信息页</a></li>
         </ul>
       </div>
       <div class="footer-col">
