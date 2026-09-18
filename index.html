@@ -2779,24 +2779,28 @@ ul { list-style: none; }
       <div class="contact-form reveal">
         <h3>在线咨询</h3>
         <p>填写以下信息，工作人员将根据所留联系方式尽快沟通</p>
-        <form onsubmit="handleSubmit(event)">
+        <form id="consult-form" onsubmit="handleSubmit(event)">
           <div class="form-row">
             <div class="form-group">
               <label>您的姓名 *</label>
-              <input type="text" placeholder="请输入姓名" required>
+              <input type="text" name="name" placeholder="请输入姓名" required>
             </div>
             <div class="form-group">
               <label>联系电话 *</label>
-              <input type="tel" placeholder="请输入手机号" required>
+              <input type="tel" name="phone" placeholder="请输入手机号" required>
             </div>
           </div>
           <div class="form-group">
             <label>公司名称</label>
-            <input type="text" placeholder="请输入公司名称">
+            <input type="text" name="company" placeholder="请输入公司名称">
+          </div>
+          <div class="form-group">
+            <label>电子邮箱</label>
+            <input type="email" name="email" placeholder="请输入电子邮箱，便于回复">
           </div>
           <div class="form-group">
             <label>需求类型 *</label>
-            <select required>
+            <select name="demand_type" required>
               <option value="">请选择需求类型</option>
               <option>电磁屏蔽机房</option>
               <option>保密会议室</option>
@@ -2812,8 +2816,11 @@ ul { list-style: none; }
           </div>
           <div class="form-group">
             <label>需求描述</label>
-            <textarea placeholder="请简要描述您的项目需求、场地面积、安全等级要求等"></textarea>
+            <textarea name="description" placeholder="请简要描述您的项目需求、场地面积、安全等级要求等"></textarea>
           </div>
+          <input type="hidden" name="_subject" value="广天科技官网在线咨询">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
           <button type="submit" class="form-submit">提交咨询</button>
         </form>
       </div>
@@ -2898,10 +2905,29 @@ window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
 
 // 表单提交
-function handleSubmit(e) {
+async function handleSubmit(e) {
   e.preventDefault();
-  alert('感谢您的咨询！工作人员将根据您留下的联系方式尽快沟通。');
-  e.target.reset();
+  var form = e.target;
+  var button = form.querySelector('button[type="submit"]');
+  var originalText = button.textContent;
+  button.disabled = true;
+  button.textContent = '正在提交...';
+  try {
+    var endpoint = 'https://formsubmit.co/ajax/' + atob('NTUzNDUxNDQxQHFxLmNvbQ==');
+    var response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
+    });
+    if (!response.ok) throw new Error('submit failed');
+    alert('咨询已提交，我们会根据您留下的联系方式尽快联系。');
+    form.reset();
+  } catch (error) {
+    alert('提交失败，请稍后重试，或直接拨打029-87800821。');
+  } finally {
+    button.disabled = false;
+    button.textContent = originalText;
+  }
 }
 
 // 移动端菜单（简单实现）
