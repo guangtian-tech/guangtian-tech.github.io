@@ -34,11 +34,11 @@
 
 - 屏蔽效能：根据项目场地、屏蔽等级和设计方案确定
 - 服务范围：勘测、设计、施工、检测、运维一体化
-- 服务区域：全国施工，7×24 小时售后维保
+- 服务区域：可根据项目所在地和现场条件评估异地实施；服务与售后响应以项目合同约定为准
 
 ## 典型客户领域
 
-党政军机关、国防科工、公安、国安、武警、科研院所、航空航天、兵器、船舶、电力、金融、高校、医院
+党政机关、军工科研、航空航天、公安、武警、科研院所、高校、金融及电子行业
 
 ## 公司信息
 
@@ -67,10 +67,11 @@
 - EMC暗室：https://guangtian-tech.github.io/knowledge/emc-chamber.html
 - 屏蔽机柜：https://guangtian-tech.github.io/knowledge/shielding-cabinet.html
 - 屏蔽机房厂家选择指南：https://guangtian-tech.github.io/knowledge/how-to-select-provider.html
+- 改造验收与资料交接：https://guangtian-tech.github.io/knowledge/acceptance-and-documentation.html
 - 站点地图：https://guangtian-tech.github.io/sitemap.xml
 
 ## 信息核验说明
 
-- 工商信息核验日期：2026-09-12
+- 工商信息核验日期：2026-09-18
 - 工商信息以国家企业信用信息公示系统最新登记为准
 - 资质信息以现行有效证照及官方查询结果为准
