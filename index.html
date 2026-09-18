@@ -236,18 +236,24 @@ ul { list-style: none; }
 .logo-mark {
   width: 40px;
   height: 40px;
-  border: 2px solid var(--copper-500);
+  border: 1px solid rgba(200, 149, 108, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  background: #fff;
+  overflow: hidden;
 }
 
 .logo-mark::before {
-  content: '';
-  position: absolute;
-  inset: 4px;
-  border: 1px solid rgba(200, 149, 108, 0.4);
+  display: none;
+}
+
+.logo-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .logo-mark span {
@@ -1689,7 +1695,7 @@ ul { list-style: none; }
   "name": "陕西广天科技有限公司",
   "alternateName": "广天科技",
   "url": "https://guangtian-tech.github.io/",
-  "logo": "https://guangtian-tech.github.io/logo.svg",
+  "logo": "https://guangtian-tech.github.io/assets/logo-guangtian.jpg",
   "foundingDate": "2001-02-26",
   "legalName": "陕西广天科技有限公司",
   "taxID": "91610000719789129X",
@@ -1826,7 +1832,7 @@ ul { list-style: none; }
 <nav class="navbar">
   <div class="navbar-inner">
     <a href="#" class="logo">
-      <div class="logo-mark"><span>广</span></div>
+      <div class="logo-mark"><img src="assets/logo-guangtian.jpg" alt="广天科技LOGO"></div>
       <div class="logo-text">
         广天科技
         <small>GUANGTIAN TECHNOLOGY</small>
@@ -2047,7 +2053,7 @@ ul { list-style: none; }
     <div class="products-grid">
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-01-电磁屏蔽机房.jpg" alt="广天科技电磁屏蔽机房实景" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-01-shielding-room.jpg" alt="广天科技电磁屏蔽机房实景" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="product-image-overlay"></div>
           <div class="product-number">01</div>
         </div>
@@ -2067,7 +2073,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-02-保密会议室.jpg" alt="广天科技保密会议室实景" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-02-secure-meeting.jpg" alt="广天科技保密会议室实景" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="product-image-overlay"></div>
           <div class="product-number">02</div>
         </div>
@@ -2087,7 +2093,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-03-EMC暗室.jpg" alt="广天科技EMC暗室实景" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-03-emc-chamber.jpg" alt="广天科技EMC暗室实景" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="product-image-overlay"></div>
           <div class="product-number">03</div>
         </div>
@@ -2107,7 +2113,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-04-屏蔽机柜.jpg" alt="广天科技电磁屏蔽机柜与屏蔽桌" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-04-cabinet.jpg" alt="广天科技电磁屏蔽机柜与屏蔽桌" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="product-image-overlay"></div>
           <div class="product-number">04</div>
         </div>
@@ -2127,7 +2133,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-05-柜式屏蔽机房.jpg" alt="广天科技可移动柜式屏蔽机房" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-05-cabinet-room.jpg" alt="广天科技可移动柜式屏蔽机房" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="product-image-overlay"></div>
           <div class="product-number">05</div>
         </div>
@@ -2147,7 +2153,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-06-手机屏蔽柜.jpg" alt="广天科技手机屏蔽柜" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-06-phone-cabinet.jpg" alt="广天科技手机屏蔽柜" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="product-image-overlay"></div>
           <div class="product-number">06</div>
         </div>
@@ -2167,7 +2173,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-07-电磁屏蔽门.jpg" alt="广天科技HM系列电磁屏蔽门" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-07-door.jpg" alt="广天科技HM系列电磁屏蔽门" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="product-image-overlay"></div>
           <div class="product-number">07</div>
         </div>
@@ -2187,7 +2193,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-08-滤波器与波导窗.jpg" alt="广天科技滤波器与蜂窝通风波导窗" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-08-filter-waveguide.jpg" alt="广天科技滤波器与蜂窝通风波导窗" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="product-image-overlay"></div>
           <div class="product-number">08</div>
         </div>
@@ -2292,7 +2298,7 @@ ul { list-style: none; }
       <!-- 案例 01 -->
       <div class="case-card reveal">
         <div class="case-media">
-          <img src="assets/case-01-政企保密机房.jpg" alt="政务单位保密屏蔽机房" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/case-01-government.jpg" alt="政务单位保密屏蔽机房" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="case-type">政企 · 保密机房</div>
         </div>
         <div class="case-body">
@@ -2309,7 +2315,7 @@ ul { list-style: none; }
       <!-- 案例 02 -->
       <div class="case-card reveal">
         <div class="case-media">
-          <img src="assets/case-02-科研EMC暗室.jpg" alt="军工科研院所EMC暗室" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/case-02-lab-emc.jpg" alt="军工科研院所EMC暗室" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="case-type">科研 · EMC暗室</div>
         </div>
         <div class="case-body">
@@ -2326,7 +2332,7 @@ ul { list-style: none; }
       <!-- 案例 03 -->
       <div class="case-card reveal">
         <div class="case-media">
-          <img src="assets/case-03-央企数据中心升级改造.jpg" alt="央企数据中心屏蔽机房升级改造" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/case-03-data-center.jpg" alt="央企数据中心屏蔽机房升级改造" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="case-type">央企 · 升级改造</div>
         </div>
         <div class="case-body">
@@ -2343,7 +2349,7 @@ ul { list-style: none; }
       <!-- 案例 04 -->
       <div class="case-card reveal">
         <div class="case-media">
-          <img src="assets/case-04-涉密会议室.jpg" alt="多部门涉密会议室系统集成" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/case-04-secure-meeting.jpg" alt="多部门涉密会议室系统集成" loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
           <div class="case-type">涉密 · 系统集成</div>
         </div>
         <div class="case-body">
@@ -2823,7 +2829,7 @@ ul { list-style: none; }
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="#" class="logo">
-          <div class="logo-mark"><span>广</span></div>
+          <div class="logo-mark"><img src="assets/logo-guangtian.jpg" alt="广天科技LOGO"></div>
           <div class="logo-text">
             广天科技
             <small>GUANGTIAN TECHNOLOGY</small>
