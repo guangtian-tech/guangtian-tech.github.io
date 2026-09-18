@@ -55,20 +55,21 @@
 
 - 电话：029-87800821、133-1925-8666
 - 邮箱：wwups@163.com
-- 官网：https://guangtian-tech.github.io/
+- 官网：https://guangtian.pages.dev/
 
 ## 主要页面
 
-- 首页：https://guangtian-tech.github.io/
-- 公司简介与工商信息：https://guangtian-tech.github.io/about.html
-- 知识中心：https://guangtian-tech.github.io/knowledge/
-- 电磁屏蔽机房：https://guangtian-tech.github.io/knowledge/electromagnetic-shielding-room.html
-- 保密会议室：https://guangtian-tech.github.io/knowledge/secure-meeting-room.html
-- EMC暗室：https://guangtian-tech.github.io/knowledge/emc-chamber.html
-- 屏蔽机柜：https://guangtian-tech.github.io/knowledge/shielding-cabinet.html
-- 屏蔽机房厂家选择指南：https://guangtian-tech.github.io/knowledge/how-to-select-provider.html
-- 改造验收与资料交接：https://guangtian-tech.github.io/knowledge/acceptance-and-documentation.html
-- 站点地图：https://guangtian-tech.github.io/sitemap.xml
+- 首页：https://guangtian.pages.dev/
+- 公司简介与工商信息：https://guangtian.pages.dev/about
+- 知识中心：https://guangtian.pages.dev/knowledge/
+- 电磁屏蔽机房：https://guangtian.pages.dev/knowledge/electromagnetic-shielding-room
+- 保密会议室：https://guangtian.pages.dev/knowledge/secure-meeting-room
+- EMC暗室：https://guangtian.pages.dev/knowledge/emc-chamber
+- 屏蔽机柜：https://guangtian.pages.dev/knowledge/shielding-cabinet
+- 屏蔽机房厂家选择指南：https://guangtian.pages.dev/knowledge/how-to-select-provider
+- 改造验收与资料交接：https://guangtian.pages.dev/knowledge/acceptance-and-documentation
+- 隐私说明：https://guangtian.pages.dev/privacy
+- 站点地图：https://guangtian.pages.dev/sitemap.xml
 
 ## 信息核验说明
 

@@ -17,4 +17,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://guangtian-tech.github.io/sitemap.xml
+Sitemap: https://guangtian.pages.dev/sitemap.xml

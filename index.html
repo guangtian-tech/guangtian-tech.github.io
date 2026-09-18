@@ -7,22 +7,21 @@
 <meta name="description" content="陕西广天科技有限公司（广天科技）成立于2001年2月26日，注册资本301万元，注册地址位于西安市莲湖区。公司持有国家保密局涉密信息系统集成《屏蔽室建设》单项甲级资质，专业提供电磁屏蔽机房、保密会议室、EMC暗室、屏蔽机柜、柜式屏蔽机房和手机屏蔽柜等产品的设计、施工与系统集成服务。">
 <meta name="keywords" content="电磁屏蔽,屏蔽机房,保密会议室,EMC暗室,屏蔽机柜,柜式屏蔽机房,手机屏蔽柜,电磁屏蔽门,涉密系统集成,陕西广天科技">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://guangtian-tech.github.io/">
+<link rel="canonical" href="https://guangtian.pages.dev/">
 <link rel="preload" as="image" href="assets/hero-bg.webp" fetchpriority="high">
-<meta property="og:image" content="https://guangtian-tech.github.io/assets/hero-bg.jpg">
-<meta property="og:image:width" content="1920">
-<meta property="og:image:height" content="1080">
+<meta property="og:image" content="https://guangtian.pages.dev/assets/hero-bg.jpg">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="900">
 <!-- 百度站长平台验证：拿到验证码后，取消下面这行注释并替换 code
 <meta name="baidu-site-verification" content="code-xxxxxxxxxx">
 -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="广天科技 | 电磁屏蔽机房_保密会议室_EMC暗室_屏蔽机柜">
 <meta property="og:description" content="陕西广天科技有限公司成立于2001年，持有国家保密局涉密信息系统集成《屏蔽室建设》单项甲级资质，提供电磁屏蔽机房、保密会议室、EMC暗室和屏蔽机柜等系统集成服务。">
-<meta property="og:url" content="https://guangtian-tech.github.io/">
+<meta property="og:url" content="https://guangtian.pages.dev/">
 <meta property="og:locale" content="zh_CN">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%228%22%20fill%3D%22%230A1628%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%2254%22%20height%3D%2254%22%20rx%3D%224%22%20fill%3D%22none%22%20stroke%3D%22%23C8956C%22%20stroke-width%3D%222%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2246%22%20font-family%3D%22%27Noto%20Serif%20SC%27%2C%27Songti%20SC%27%2Cserif%22%20font-size%3D%2236%22%20font-weight%3D%22900%22%20fill%3D%22%23C8956C%22%20text-anchor%3D%22middle%22%3E%E5%B9%BF%3C%2Ftext%3E%3C%2Fsvg%3E">
+<link rel="icon" type="image/webp" href="assets/logo-guangtian.webp">
 <meta name="theme-color" content="#0A1628">
-<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
 <style>
 /* ===== 全局变量与重置 ===== */
 :root {
@@ -49,7 +48,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--gray-700);
   background: var(--white);
   line-height: 1.7;
@@ -57,7 +56,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Noto Serif SC', 'Songti SC', serif;
+  font-family: 'Songti SC', 'STSong', 'Noto Serif CJK SC', 'Source Han Serif SC', serif;
   font-weight: 700;
   color: var(--navy-800);
   line-height: 1.3;
@@ -368,6 +367,42 @@ ul { list-style: none; }
   background: var(--white);
   margin: 5px 0;
   transition: 0.3s;
+}
+
+.mobile-menu-btn[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.mobile-menu-btn[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-btn[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.muted-section {
+  background: var(--gray-100);
+}
+
+.media-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* ===== Hero 区 ===== */
@@ -695,7 +730,7 @@ ul { list-style: none; }
   font-weight: 700;
 }
 
-.about-feature-text h4 {
+.about-feature-text h3 {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 4px;
@@ -763,6 +798,14 @@ ul { list-style: none; }
 
 .history-media {
   position: relative;
+}
+
+.history-img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 .history-media .img-placeholder {
@@ -1049,7 +1092,7 @@ ul { list-style: none; }
 
 .case-note {
   text-align: center;
-  color: var(--gray-400);
+  color: var(--gray-600);
   font-size: 12px;
   margin-top: 44px;
   letter-spacing: 1px;
@@ -1205,7 +1248,7 @@ ul { list-style: none; }
   transition: color 0.3s;
 }
 
-.process-step h4 {
+.process-step h3 {
   font-size: 15px;
   margin-bottom: 8px;
   color: var(--navy-800);
@@ -1262,6 +1305,44 @@ ul { list-style: none; }
   margin-bottom: 48px;
 }
 
+.certificates-feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto 48px;
+}
+
+.certificate-feature-card {
+  flex: 1 1 300px;
+  min-width: 260px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.certificate-feature-img {
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.certificate-feature-placeholder {
+  width: 100%;
+  height: 320px;
+  border-radius: 6px;
+}
+
+.certificate-feature-caption {
+  margin-top: 8px;
+  color: var(--gray-500);
+  font-size: 12px;
+  text-align: center;
+}
+
 /* 证书图片卡片 */
 .certificates-grid {
   display: grid;
@@ -1301,6 +1382,13 @@ ul { list-style: none; }
 
 .certificate-img .ph-tip {
   font-size: 9px;
+}
+
+.certificate-thumb {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: #fff;
 }
 
 .certificate-card h4 {
@@ -1371,7 +1459,7 @@ ul { list-style: none; }
   stroke-width: 1.5;
 }
 
-.contact-item-content h4 {
+.contact-item-content h3 {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 6px;
@@ -1388,6 +1476,38 @@ ul { list-style: none; }
 .contact-form {
   background: var(--gray-100);
   padding: 48px;
+}
+
+.form-hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.form-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 4px 0 20px;
+  color: var(--gray-600);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.form-consent input {
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+  flex: 0 0 auto;
+  accent-color: var(--copper-500);
+}
+
+.form-consent a {
+  color: var(--navy-700);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .contact-form h3 {
@@ -1641,7 +1761,7 @@ ul { list-style: none; }
 }
 
 .footer-bottom p {
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.62);
   font-size: 12px;
   letter-spacing: 1px;
 }
@@ -1650,6 +1770,19 @@ ul { list-style: none; }
 @media (max-width: 968px) {
   .nav-links { display: none; }
   .mobile-menu-btn { display: block; }
+
+  .nav-links.open {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+    background: rgba(6, 14, 26, 0.98);
+    border-bottom: 1px solid rgba(200, 149, 108, 0.2);
+  }
 
   .hero-stats { grid-template-columns: repeat(2, 1fr); }
 
@@ -1716,11 +1849,11 @@ ul { list-style: none; }
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://guangtian-tech.github.io/#organization",
+  "@id": "https://guangtian.pages.dev/#organization",
   "name": "陕西广天科技有限公司",
   "alternateName": "广天科技",
-  "url": "https://guangtian-tech.github.io/",
-  "logo": "https://guangtian-tech.github.io/assets/logo-guangtian.webp",
+  "url": "https://guangtian.pages.dev/",
+  "logo": "https://guangtian.pages.dev/assets/logo-guangtian.webp",
   "foundingDate": "2001-02-26",
   "legalName": "陕西广天科技有限公司",
   "taxID": "91610000719789129X",
@@ -1749,8 +1882,8 @@ ul { list-style: none; }
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "广天科技官网",
-  "url": "https://guangtian-tech.github.io/",
-  "publisher": { "@id": "https://guangtian-tech.github.io/#organization" }
+  "url": "https://guangtian.pages.dev/",
+  "publisher": { "@id": "https://guangtian.pages.dev/#organization" }
 }
 </script>
 <script type="application/ld+json">
@@ -1758,7 +1891,7 @@ ul { list-style: none; }
   "@context": "https://schema.org",
   "@type": "Service",
   "serviceType": "电磁屏蔽室建设与涉密系统集成",
-  "provider": { "@id": "https://guangtian-tech.github.io/#organization" },
+  "provider": { "@id": "https://guangtian.pages.dev/#organization" },
   "areaServed": "中国",
   "description": "提供电磁屏蔽机房、保密会议室、EMC暗室、屏蔽机柜、柜式屏蔽机房、手机屏蔽柜、电磁屏蔽门和屏蔽辅材的勘测、设计、施工、检测配合与运维服务。",
   "hasOfferCatalog": {
@@ -1863,7 +1996,7 @@ ul { list-style: none; }
         <small>GUANGTIAN TECHNOLOGY</small>
       </div>
     </a>
-    <div class="nav-links">
+    <div class="nav-links" id="site-nav">
       <a href="#about">关于我们</a>
       <a href="#history">发展历程</a>
       <a href="#products">产品服务</a>
@@ -1872,11 +2005,12 @@ ul { list-style: none; }
       <a href="#process">工程流程</a>
       <a href="#certificates">资质证书</a>
       <a href="#faq">常见问题</a>
-      <a href="knowledge/index.html">知识中心</a>
+      <a href="knowledge/index">知识中心</a>
       <a href="#contact" class="nav-cta">获取方案</a>
     </div>
-    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
-      <span></span><span></span><span></span>
+    <button class="mobile-menu-btn" type="button" aria-label="打开导航菜单" aria-controls="site-nav" aria-expanded="false" onclick="toggleMobileMenu()">
+      <span class="sr-only">导航菜单</span>
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
     </button>
   </div>
 </nav>
@@ -1933,7 +2067,7 @@ ul { list-style: none; }
         </div>
       </div>
       <div class="about-content reveal">
-        <div class="section-eyebrow" style="margin-bottom:16px;">ABOUT US</div>
+        <div class="section-eyebrow">ABOUT US</div>
         <h2>专注电磁屏蔽<br>守护国家信息安全</h2>
         <p>
           陕西广天科技有限公司成立于2001年2月26日，注册资本301万元，注册地址位于西安市莲湖区南二环西段202号汇鑫大厦。公司核心业务覆盖屏蔽室（屏蔽机房）、保密会议室、机柜式一体化屏蔽机房、计算机网络机房系统集成、屏蔽机柜、微波暗室、屏蔽电脑桌、电子方舱等专业领域，集产品开发、设计、生产、安装、销售与售后维护于一体。
@@ -1945,28 +2079,28 @@ ul { list-style: none; }
           <div class="about-feature">
             <div class="about-feature-icon">01</div>
             <div class="about-feature-text">
-              <h4>甲级资质</h4>
+              <h3>甲级资质</h3>
               <p>国家保密局《屏蔽室建设》单项甲级，按现行有效证照为准</p>
             </div>
           </div>
           <div class="about-feature">
             <div class="about-feature-icon">02</div>
             <div class="about-feature-text">
-              <h4>品质领先</h4>
+              <h3>品质领先</h3>
               <p>二十余年项目经验，标准化施工与质量记录管理</p>
             </div>
           </div>
           <div class="about-feature">
             <div class="about-feature-icon">03</div>
             <div class="about-feature-text">
-              <h4>自主研发</h4>
+              <h3>自主研发</h3>
               <p>柜式屏蔽机房、屏蔽门、波导窗等自主知识产权产品</p>
             </div>
           </div>
           <div class="about-feature">
             <div class="about-feature-icon">04</div>
             <div class="about-feature-text">
-              <h4>售后保障</h4>
+              <h3>售后保障</h3>
               <p>2017年起开展屏蔽机房维保与检测配合服务</p>
             </div>
           </div>
@@ -1990,7 +2124,7 @@ ul { list-style: none; }
       <div class="history-item reveal">
         <div class="history-media">
           <div class="history-year-badge">2001</div>
-          <img src="assets/history-2001.webp" alt="2001 公司创立" loading="lazy" decoding="async" style="width:100%;height:260px;object-fit:cover;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.06);">
+          <img src="assets/history-2001.webp" alt="2001 公司创立" loading="lazy" decoding="async" class="history-img">
         </div>
         <div class="history-content">
           <h3><span>2001</span>扎根西安，正式起航</h3>
@@ -2003,7 +2137,7 @@ ul { list-style: none; }
       <div class="history-item reveal">
         <div class="history-media">
           <div class="history-year-badge">2008</div>
-          <img src="assets/history-2008.webp" alt="2008 取得屏蔽室建设甲级资质" loading="lazy" decoding="async" style="width:100%;height:260px;object-fit:cover;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.06);">
+          <img src="assets/history-2008.webp" alt="2008 取得屏蔽室建设甲级资质" loading="lazy" decoding="async" class="history-img">
         </div>
         <div class="history-content">
           <h3><span>2008</span>取得《屏蔽室建设》甲级资质</h3>
@@ -2016,7 +2150,7 @@ ul { list-style: none; }
       <div class="history-item reveal">
         <div class="history-media">
           <div class="history-year-badge">2010</div>
-          <img src="assets/history-2010.webp" alt="2010 取得国家密码管理局资质" loading="lazy" decoding="async" style="width:100%;height:260px;object-fit:cover;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.06);">
+          <img src="assets/history-2010.webp" alt="2010 取得国家密码管理局资质" loading="lazy" decoding="async" class="history-img">
         </div>
         <div class="history-content">
           <h3><span>2010</span>取得国家密码管理局资质</h3>
@@ -2029,7 +2163,7 @@ ul { list-style: none; }
       <div class="history-item reveal">
         <div class="history-media">
           <div class="history-year-badge">2015</div>
-          <img src="assets/history-2015.webp" alt="2015 业务覆盖全国" loading="lazy" decoding="async" style="width:100%;height:260px;object-fit:cover;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.06);">
+          <img src="assets/history-2015.webp" alt="2015 业务覆盖全国" loading="lazy" decoding="async" class="history-img">
         </div>
         <div class="history-content">
           <h3><span>2015</span>延续甲级资质，覆盖全国</h3>
@@ -2042,7 +2176,7 @@ ul { list-style: none; }
       <div class="history-item reveal">
         <div class="history-media">
           <div class="history-year-badge">2017</div>
-          <img src="assets/history-2017.webp" alt="2017 开创屏蔽机房维保业务" loading="lazy" decoding="async" style="width:100%;height:260px;object-fit:cover;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.06);">
+          <img src="assets/history-2017.webp" alt="2017 开创屏蔽机房维保业务" loading="lazy" decoding="async" class="history-img">
         </div>
         <div class="history-content">
           <h3><span>2017</span>开创屏蔽机房维保业务</h3>
@@ -2055,7 +2189,7 @@ ul { list-style: none; }
       <div class="history-item reveal">
         <div class="history-media">
           <div class="history-year-badge">2018</div>
-          <img src="assets/history-2018.webp" alt="2018 取得武器装备质量体系认证" loading="lazy" decoding="async" style="width:100%;height:260px;object-fit:cover;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.06);">
+          <img src="assets/history-2018.webp" alt="2018 取得武器装备质量体系认证" loading="lazy" decoding="async" class="history-img">
         </div>
         <div class="history-content">
           <h3><span>2018</span>取得武器装备质量体系认证</h3>
@@ -2068,17 +2202,17 @@ ul { list-style: none; }
 </section>
 
 <!-- ===== 产品服务（产品图片占位区） ===== -->
-<section class="section faraday-grid" id="products" style="background:var(--gray-100);">
+<section class="section faraday-grid muted-section" id="products">
   <div class="container">
     <div class="section-header reveal">
-      <div class="section-eyebrow">PRODUCTS & SERVICES</div>
+      <div class="section-eyebrow">PRODUCTS &amp; SERVICES</div>
       <h2 class="section-title">核心产品与服务</h2>
       <p class="section-desc">广天科技提供电磁屏蔽机房、保密会议室、EMC暗室、屏蔽机柜、柜式屏蔽机房、手机屏蔽柜、电磁屏蔽门、屏蔽辅材八大类产品，屏蔽效能按项目要求、场地条件和设计等级确定，支持全国施工与一对一定制化设计。</p>
     </div>
     <div class="products-grid">
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-01-shielding-room.webp" alt="广天科技电磁屏蔽机房实景" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-01-shielding-room.webp" alt="广天科技电磁屏蔽机房实景" loading="lazy" decoding="async" class="media-cover">
           <div class="product-image-overlay"></div>
           <div class="product-number">01</div>
         </div>
@@ -2098,7 +2232,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-02-secure-meeting.webp" alt="广天科技保密会议室实景" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-02-secure-meeting.webp" alt="广天科技保密会议室实景" loading="lazy" decoding="async" class="media-cover">
           <div class="product-image-overlay"></div>
           <div class="product-number">02</div>
         </div>
@@ -2118,7 +2252,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-03-emc-chamber.webp" alt="广天科技EMC暗室实景" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-03-emc-chamber.webp" alt="广天科技EMC暗室实景" loading="lazy" decoding="async" class="media-cover">
           <div class="product-image-overlay"></div>
           <div class="product-number">03</div>
         </div>
@@ -2138,7 +2272,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-04-cabinet.webp" alt="广天科技电磁屏蔽机柜与屏蔽桌" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-04-cabinet.webp" alt="广天科技电磁屏蔽机柜与屏蔽桌" loading="lazy" decoding="async" class="media-cover">
           <div class="product-image-overlay"></div>
           <div class="product-number">04</div>
         </div>
@@ -2158,7 +2292,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-05-cabinet-room.webp" alt="广天科技可移动柜式屏蔽机房" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-05-cabinet-room.webp" alt="广天科技可移动柜式屏蔽机房" loading="lazy" decoding="async" class="media-cover">
           <div class="product-image-overlay"></div>
           <div class="product-number">05</div>
         </div>
@@ -2178,7 +2312,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-06-phone-cabinet.webp" alt="广天科技手机屏蔽柜" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-06-phone-cabinet.webp" alt="广天科技手机屏蔽柜" loading="lazy" decoding="async" class="media-cover">
           <div class="product-image-overlay"></div>
           <div class="product-number">06</div>
         </div>
@@ -2198,7 +2332,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-07-door.webp" alt="广天科技HM系列电磁屏蔽门" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-07-door.webp" alt="广天科技HM系列电磁屏蔽门" loading="lazy" decoding="async" class="media-cover">
           <div class="product-image-overlay"></div>
           <div class="product-number">07</div>
         </div>
@@ -2218,7 +2352,7 @@ ul { list-style: none; }
 
       <div class="product-card reveal">
         <div class="product-image">
-          <img src="assets/product-08-filter-waveguide.webp" alt="广天科技滤波器与蜂窝通风波导窗" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/product-08-filter-waveguide.webp" alt="广天科技滤波器与蜂窝通风波导窗" loading="lazy" decoding="async" class="media-cover">
           <div class="product-image-overlay"></div>
           <div class="product-number">08</div>
         </div>
@@ -2323,7 +2457,7 @@ ul { list-style: none; }
       <!-- 案例 01 -->
       <div class="case-card reveal">
         <div class="case-media">
-          <img src="assets/case-01-government.webp" alt="政务单位保密屏蔽机房" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/case-01-government.webp" alt="政务单位保密屏蔽机房" loading="lazy" decoding="async" class="media-cover">
           <div class="case-type">政企 · 保密机房</div>
         </div>
         <div class="case-body">
@@ -2340,7 +2474,7 @@ ul { list-style: none; }
       <!-- 案例 02 -->
       <div class="case-card reveal">
         <div class="case-media">
-          <img src="assets/case-02-lab-emc.webp" alt="军工科研院所EMC暗室" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/case-02-lab-emc.webp" alt="军工科研院所EMC暗室" loading="lazy" decoding="async" class="media-cover">
           <div class="case-type">科研 · EMC暗室</div>
         </div>
         <div class="case-body">
@@ -2357,7 +2491,7 @@ ul { list-style: none; }
       <!-- 案例 03 -->
       <div class="case-card reveal">
         <div class="case-media">
-          <img src="assets/case-03-data-center.webp" alt="央企数据中心屏蔽机房升级改造" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/case-03-data-center.webp" alt="央企数据中心屏蔽机房升级改造" loading="lazy" decoding="async" class="media-cover">
           <div class="case-type">央企 · 升级改造</div>
         </div>
         <div class="case-body">
@@ -2374,7 +2508,7 @@ ul { list-style: none; }
       <!-- 案例 04 -->
       <div class="case-card reveal">
         <div class="case-media">
-          <img src="assets/case-04-secure-meeting.webp" alt="多部门涉密会议室系统集成" loading="lazy" decoding="async" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+          <img src="assets/case-04-secure-meeting.webp" alt="多部门涉密会议室系统集成" loading="lazy" decoding="async" class="media-cover">
           <div class="case-type">涉密 · 系统集成</div>
         </div>
         <div class="case-body">
@@ -2462,27 +2596,27 @@ ul { list-style: none; }
       <div class="process-steps">
         <div class="process-step">
           <div class="process-dot"><span class="step-num">01</span></div>
-          <h4>需求勘测</h4>
+          <h3>需求勘测</h3>
           <p>专业工程师现场勘测，了解客户需求和场地条件</p>
         </div>
         <div class="process-step">
           <div class="process-dot"><span class="step-num">02</span></div>
-          <h4>方案设计</h4>
+          <h3>方案设计</h3>
           <p>定制化设计方案，出具施工图纸和预算报价</p>
         </div>
         <div class="process-step">
           <div class="process-dot"><span class="step-num">03</span></div>
-          <h4>施工安装</h4>
+          <h3>施工安装</h3>
           <p>标准化施工，严格按照设计图纸和规范执行</p>
         </div>
         <div class="process-step">
           <div class="process-dot"><span class="step-num">04</span></div>
-          <h4>检测验收</h4>
+          <h3>检测验收</h3>
           <p>第三方权威检测，屏蔽效能测试，竣工验收</p>
         </div>
         <div class="process-step">
           <div class="process-dot"><span class="step-num">05</span></div>
-          <h4>运维保障</h4>
+          <h3>运维保障</h3>
           <p>售后和技术支持安排以合同约定为准</p>
         </div>
       </div>
@@ -2496,27 +2630,27 @@ ul { list-style: none; }
   <div class="container certificates-inner">
     <h3 class="certificates-title reveal">资质与认证资料</h3>
     <p class="certificates-desc reveal">涉密资质、体系认证、专利与商标等资料可按招投标和客户核验要求提供，具体状态以现行有效证照为准。</p>
-    <div style="display:flex;gap:20px;flex-wrap:wrap;max-width:960px;margin:0 auto 48px;">
-      <div style="flex:1 1 300px;min-width:260px;background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:10px;box-sizing:border-box;">
-        <img src="assets/honor-plaques.webp" alt="广天科技资质荣誉牌匾实拍：保密管理先进集体、优秀会员单位、AAA信用企业、西安市高新技术企业" loading="lazy" decoding="async" style="width:100%;height:320px;object-fit:contain;border-radius:6px;">
-        <p style="text-align:center;font-size:12px;color:var(--gray-500);margin-top:8px;">资质荣誉牌匾实拍</p>
+    <div class="certificates-feature-grid">
+      <div class="certificate-feature-card">
+        <img class="certificate-feature-img" src="assets/honor-plaques.webp" alt="广天科技资质荣誉牌匾实拍：保密管理先进集体、优秀会员单位、AAA信用企业、西安市高新技术企业" loading="lazy" decoding="async">
+        <p class="certificate-feature-caption">资质荣誉牌匾实拍</p>
       </div>
-      <div style="flex:1 1 300px;min-width:260px;background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:10px;box-sizing:border-box;">
-        <div class="img-placeholder light certificate-confidential" style="width:100%;height:320px;border-radius:6px;">
+      <div class="certificate-feature-card">
+        <div class="img-placeholder light certificate-confidential certificate-feature-placeholder">
           <div class="ph-icon">
             <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
           <div class="ph-name">证照资料按核验程序提供</div>
           <div class="ph-tip">敏感字段不在网页展示</div>
         </div>
-        <p style="text-align:center;font-size:12px;color:var(--gray-500);margin-top:8px;">资质证照脱敏展示</p>
+        <p class="certificate-feature-caption">资质证照脱敏展示</p>
       </div>
     </div>
     <div class="certificates-grid reveal">
       <!-- 证书图片占位：替换为真实证书扫描图时，删除占位div，取消注释img标签并填入图片地址 -->
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-grade-a.webp" alt="涉密信息系统集成屏蔽室建设单项甲级资质历史证照" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-grade-a.webp" alt="涉密信息系统集成屏蔽室建设单项甲级资质历史证照" loading="lazy" decoding="async">
         </div>
         <h4>涉密甲级资质</h4>
       </div>
@@ -2534,70 +2668,70 @@ ul { list-style: none; }
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-high-tech-expired.webp" alt="西安市高新技术企业证书历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-high-tech-expired.webp" alt="西安市高新技术企业证书历史资料" loading="lazy" decoding="async">
         </div>
         <h4>高新技术企业</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-weapons-expired.webp" alt="武器装备质量管理体系认证证书历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-weapons-expired.webp" alt="武器装备质量管理体系认证证书历史资料" loading="lazy" decoding="async">
         </div>
         <h4>武器装备质量体系</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-association.webp" alt="中国保密协会会员单位证书历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-association.webp" alt="中国保密协会会员单位证书历史资料" loading="lazy" decoding="async">
         </div>
         <h4>中国保密协会会员</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img img-placeholder light">
-          <img src="assets/patent-trademark.webp" alt="广天科技实用新型专利证书与HANSMARE商标注册证" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/patent-trademark.webp" alt="广天科技实用新型专利证书与HANSMARE商标注册证" loading="lazy" decoding="async">
         </div>
         <h4>专利与商标</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-safety-license.webp" alt="安全生产许可证历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-safety-license.webp" alt="安全生产许可证历史资料" loading="lazy" decoding="async">
         </div>
         <h4>安全生产许可证</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-construction.webp" alt="建筑业企业资质证书历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-construction.webp" alt="建筑业企业资质证书历史资料" loading="lazy" decoding="async">
         </div>
         <h4>建筑业企业资质证书</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-qms-1.webp" alt="质量管理体系认证证书历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-qms-1.webp" alt="质量管理体系认证证书历史资料" loading="lazy" decoding="async">
         </div>
         <h4>质量管理体系认证</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-ems-expired.webp" alt="环境管理体系认证证书历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-ems-expired.webp" alt="环境管理体系认证证书历史资料" loading="lazy" decoding="async">
         </div>
         <h4>环境管理体系认证</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/cert-ohs-expired.webp" alt="职业健康安全管理体系认证证书历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/cert-ohs-expired.webp" alt="职业健康安全管理体系认证证书历史资料" loading="lazy" decoding="async">
         </div>
         <h4>职业健康安全管理体系</h4>
       </div>
 
       <div class="certificate-card">
         <div class="certificate-img">
-          <img src="assets/trademark-registration.webp" alt="广天科技注册商标历史资料" loading="lazy" decoding="async" style="width:100%;height:200px;object-fit:contain;background:#fff;">
+          <img class="certificate-thumb" src="assets/trademark-registration.webp" alt="广天科技注册商标历史资料" loading="lazy" decoding="async">
         </div>
         <h4>注册商标</h4>
       </div>
@@ -2683,35 +2817,35 @@ ul { list-style: none; }
       <p class="section-desc">围绕屏蔽机房、保密会议室、EMC暗室、屏蔽机柜和厂家核验，提供可直接引用的独立说明页面。</p>
     </div>
     <div class="products-grid">
-      <a class="product-card knowledge-card reveal" href="knowledge/electromagnetic-shielding-room.html">
+      <a class="product-card knowledge-card reveal" href="knowledge/electromagnetic-shielding-room">
         <div class="product-body">
           <h3>电磁屏蔽机房是什么？</h3>
           <p>了解屏蔽机房与普通机房的区别、常见结构、施工流程和报价影响因素。</p>
           <span class="product-link">阅读全文</span>
         </div>
       </a>
-      <a class="product-card knowledge-card reveal" href="knowledge/secure-meeting-room.html">
+      <a class="product-card knowledge-card reveal" href="knowledge/secure-meeting-room">
         <div class="product-body">
           <h3>保密会议室建设指南</h3>
           <p>梳理电磁防护、声学防护、信号管控与会议系统集成的实施要点。</p>
           <span class="product-link">阅读全文</span>
         </div>
       </a>
-      <a class="product-card knowledge-card reveal" href="knowledge/emc-chamber.html">
+      <a class="product-card knowledge-card reveal" href="knowledge/emc-chamber">
         <div class="product-body">
           <h3>EMC暗室建设要点</h3>
           <p>对比3米法、10米法、半电波和全电波暗室，了解测试空间建设流程。</p>
           <span class="product-link">阅读全文</span>
         </div>
       </a>
-      <a class="product-card knowledge-card reveal" href="knowledge/how-to-select-provider.html">
+      <a class="product-card knowledge-card reveal" href="knowledge/how-to-select-provider">
         <div class="product-body">
           <h3>屏蔽机房厂家怎么选？</h3>
           <p>从企业主体、有效资质、技术方案、施工能力、检测配合和售后责任进行核验。</p>
           <span class="product-link">阅读全文</span>
         </div>
       </a>
-      <a class="product-card knowledge-card reveal" href="knowledge/acceptance-and-documentation.html">
+      <a class="product-card knowledge-card reveal" href="knowledge/acceptance-and-documentation">
         <div class="product-body">
           <h3>改造验收与资料交接怎么准备？</h3>
           <p>梳理现场核查、检测配合、整改责任、竣工资料和移交清单。</p>
@@ -2788,7 +2922,7 @@ ul { list-style: none; }
   <div class="container">
     <div class="contact-grid">
       <div class="contact-info reveal">
-        <div class="section-eyebrow" style="margin-bottom:16px;">CONTACT US</div>
+        <div class="section-eyebrow">CONTACT US</div>
         <h2>联系我们<br>获取专业方案</h2>
         <p>无论您有任何电磁屏蔽或涉密系统集成需求，欢迎随时联系我们，专业工程师将为您提供一对一咨询服务。</p>
         <div class="contact-items">
@@ -2797,7 +2931,7 @@ ul { list-style: none; }
               <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             </div>
             <div class="contact-item-content">
-              <h4>注册地址</h4>
+              <h3>注册地址</h3>
               <p>陕西省西安市莲湖区南二环西段202号<br>汇鑫大厦1幢1单元8层10817号</p>
             </div>
           </div>
@@ -2806,7 +2940,7 @@ ul { list-style: none; }
               <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             </div>
             <div class="contact-item-content">
-              <h4>联系电话</h4>
+              <h3>联系电话</h3>
               <p>029-87800821（座机）<br>133-1925-8666（手机）</p>
             </div>
           </div>
@@ -2815,7 +2949,7 @@ ul { list-style: none; }
               <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             </div>
             <div class="contact-item-content">
-              <h4>电子邮箱</h4>
+              <h3>电子邮箱</h3>
               <p>wwups@163.com</p>
             </div>
           </div>
@@ -2824,7 +2958,7 @@ ul { list-style: none; }
               <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             </div>
             <div class="contact-item-content">
-              <h4>工作时间</h4>
+              <h3>工作时间</h3>
               <p>周一至周五 09:00 - 18:00<br>非工作时段安排以项目合同为准</p>
             </div>
           </div>
@@ -2836,25 +2970,25 @@ ul { list-style: none; }
         <form id="consult-form" onsubmit="handleSubmit(event)">
           <div class="form-row">
             <div class="form-group">
-              <label>您的姓名 *</label>
-              <input type="text" name="name" placeholder="请输入姓名" required>
+              <label for="name">您的姓名 *</label>
+              <input id="name" type="text" name="name" placeholder="请输入姓名" autocomplete="name" required>
             </div>
             <div class="form-group">
-              <label>联系电话 *</label>
-              <input type="tel" name="phone" placeholder="请输入手机号" required>
+              <label for="phone">联系电话 *</label>
+              <input id="phone" type="tel" name="phone" placeholder="请输入手机号" autocomplete="tel" inputmode="tel" required>
             </div>
           </div>
           <div class="form-group">
-            <label>公司名称</label>
-            <input type="text" name="company" placeholder="请输入公司名称">
+            <label for="company">公司名称</label>
+            <input id="company" type="text" name="company" placeholder="请输入公司名称" autocomplete="organization">
           </div>
           <div class="form-group">
-            <label>电子邮箱</label>
-            <input type="email" name="email" placeholder="请输入电子邮箱，便于回复">
+            <label for="email">电子邮箱</label>
+            <input id="email" type="email" name="email" placeholder="请输入电子邮箱，便于回复" autocomplete="email">
           </div>
           <div class="form-group">
-            <label>需求类型 *</label>
-            <select name="demand_type" required>
+            <label for="demand_type">需求类型 *</label>
+            <select id="demand_type" name="demand_type" required>
               <option value="">请选择需求类型</option>
               <option>电磁屏蔽机房</option>
               <option>保密会议室</option>
@@ -2869,9 +3003,17 @@ ul { list-style: none; }
             </select>
           </div>
           <div class="form-group">
-            <label>需求描述</label>
-            <textarea name="description" placeholder="请简要描述您的项目需求、场地面积、安全等级要求等"></textarea>
+            <label for="description">需求描述</label>
+            <textarea id="description" name="description" placeholder="请简要描述您的项目需求、场地面积、安全等级要求等"></textarea>
           </div>
+          <div class="form-hp" aria-hidden="true">
+            <label for="website">网站</label>
+            <input id="website" type="text" name="_honey" tabindex="-1" autocomplete="off">
+          </div>
+          <label class="form-consent">
+            <input type="checkbox" name="privacy_consent" value="同意" required>
+            <span>我已阅读并同意<a href="/privacy" target="_blank" rel="noopener">《隐私说明》</a>，同意为回复咨询将信息提交给邮件投递服务商。</span>
+          </label>
           <input type="hidden" name="_subject" value="广天科技官网在线咨询">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_captcha" value="false">
@@ -2921,14 +3063,15 @@ ul { list-style: none; }
           <li><a href="#certificates">资质证书</a></li>
           <li><a href="#faq">常见问题</a></li>
           <li><a href="/knowledge/">知识中心</a></li>
-          <li><a href="/about.html">公司信息页</a></li>
+          <li><a href="/about">公司信息页</a></li>
+          <li><a href="/privacy">隐私说明</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>联系方式</h4>
         <ul>
-          <li><a href="tel:029-87800821">029-87800821（座机）</a></li>
-          <li><a href="tel:133-1925-8666">133-1925-8666（手机）</a></li>
+          <li><a href="tel:029-87800821">029&#8209;87800821（座机）</a></li>
+          <li><a href="tel:133-1925-8666">133&#8209;1925&#8209;8666（手机）</a></li>
           <li><a href="mailto:wwups@163.com">wwups@163.com</a></li>
           <li><a href="#">陕西省西安市莲湖区南二环西段202号</a></li>
           <li><a href="#">汇鑫大厦1幢1单元8层10817号</a></li>
@@ -2964,16 +3107,24 @@ async function handleSubmit(e) {
   var form = e.target;
   var button = form.querySelector('button[type="submit"]');
   var originalText = button.textContent;
+  var lastSubmit = Number(localStorage.getItem('gt_consult_last') || 0);
+  if (Date.now() - lastSubmit < 60000) {
+    alert('提交过于频繁，请稍后再试。');
+    return;
+  }
   button.disabled = true;
   button.textContent = '正在提交...';
   try {
-    var endpoint = 'https://formsubmit.co/ajax/' + atob('NTUzNDUxNDQxQHFxLmNvbQ==');
+    var endpoint = 'https://formsubmit.co/ajax/fce5480d2196de8107ae810f7bda88de';
     var response = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Accept': 'application/json' },
       body: new FormData(form)
     });
     if (!response.ok) throw new Error('submit failed');
+    var result = await response.json();
+    if (String(result.success) !== 'true') throw new Error(result.message || 'submit failed');
+    localStorage.setItem('gt_consult_last', String(Date.now()));
     alert('咨询已提交，我们会根据您留下的联系方式尽快联系。');
     form.reset();
   } catch (error) {
@@ -2987,20 +3138,42 @@ async function handleSubmit(e) {
 // 移动端菜单（简单实现）
 function toggleMobileMenu() {
   var links = document.querySelector('.nav-links');
-  if (links.style.display === 'flex') {
-    links.style.display = 'none';
-  } else {
-    links.style.display = 'flex';
-    links.style.flexDirection = 'column';
-    links.style.position = 'absolute';
-    links.style.top = '72px';
-    links.style.left = '0';
-    links.style.right = '0';
-    links.style.background = 'rgba(6,14,26,0.98)';
-    links.style.padding = '24px';
-    links.style.gap = '20px';
-  }
+  var button = document.querySelector('.mobile-menu-btn');
+  var open = !links.classList.contains('open');
+  links.classList.toggle('open', open);
+  button.setAttribute('aria-expanded', String(open));
+  button.setAttribute('aria-label', open ? '关闭导航菜单' : '打开导航菜单');
 }
+
+document.querySelectorAll('.nav-links a').forEach(function(link) {
+  link.addEventListener('click', function() {
+    var links = document.querySelector('.nav-links');
+    var button = document.querySelector('.mobile-menu-btn');
+    links.classList.remove('open');
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-label', '打开导航菜单');
+  });
+});
+
+window.addEventListener('resize', function() {
+  if (window.innerWidth > 968) {
+    var links = document.querySelector('.nav-links');
+    var button = document.querySelector('.mobile-menu-btn');
+    links.classList.remove('open');
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-label', '打开导航菜单');
+  }
+});
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    var links = document.querySelector('.nav-links');
+    var button = document.querySelector('.mobile-menu-btn');
+    links.classList.remove('open');
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-label', '打开导航菜单');
+  }
+});
 
 // 导航栏滚动效果
 window.addEventListener('scroll', function() {
