@@ -336,6 +336,19 @@ main {
   text-decoration: none;
 }
 
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.button.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  background: transparent;
+  color: #fff;
+}
+
 .meta {
   color: var(--muted);
   font-size: 13px;
