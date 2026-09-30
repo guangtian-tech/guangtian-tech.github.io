@@ -64,15 +64,23 @@
 - 知识中心：https://guangtian.pages.dev/knowledge/
 - 电磁屏蔽机房：https://guangtian.pages.dev/knowledge/electromagnetic-shielding-room
 - 保密会议室：https://guangtian.pages.dev/knowledge/secure-meeting-room
+- 保密会议室验收前核对清单：https://guangtian.pages.dev/knowledge/secure-meeting-room-acceptance
 - EMC暗室：https://guangtian.pages.dev/knowledge/emc-chamber
+- EMC暗室预算和报价边界：https://guangtian.pages.dev/knowledge/emc-chamber-budget
 - 屏蔽机柜：https://guangtian.pages.dev/knowledge/shielding-cabinet
 - 屏蔽机房厂家选择指南：https://guangtian.pages.dev/knowledge/how-to-select-provider
 - 改造验收与资料交接：https://guangtian.pages.dev/knowledge/acceptance-and-documentation
+- 建设资质和检测资料核验：https://guangtian.pages.dev/knowledge/verify-qualifications-and-test-reports
+- 屏蔽体接口整体验收：https://guangtian.pages.dev/knowledge/shielded-enclosure-interface-acceptance
+- 老旧屏蔽机房改造前核查：https://guangtian.pages.dev/knowledge/shielded-room-pre-renovation-check
+- 验收不达标整改闭环：https://guangtian.pages.dev/knowledge/shielded-room-nonconformance-closure
+- 保密会议室责任边界：https://guangtian.pages.dev/knowledge/secure-meeting-room-responsibility
 - 隐私说明：https://guangtian.pages.dev/privacy
 - 站点地图：https://guangtian.pages.dev/sitemap.xml
 
 ## 信息核验说明
 
 - 工商信息核验日期：2026-09-18
+- 内容更新日期：2026-09-30
 - 工商信息以国家企业信用信息公示系统最新登记为准
 - 资质信息以现行有效证照及官方查询结果为准

@@ -2852,6 +2852,34 @@ ul { list-style: none; }
           <span class="product-link">阅读全文</span>
         </div>
       </a>
+      <a class="product-card knowledge-card reveal" href="knowledge/shielded-enclosure-interface-acceptance">
+        <div class="product-body">
+          <h3>屏蔽体接口为什么要整体验收？</h3>
+          <p>核对屏蔽门、滤波器、通风波导、线缆入口和接地的连续性与证据链。</p>
+          <span class="product-link">阅读全文</span>
+        </div>
+      </a>
+      <a class="product-card knowledge-card reveal" href="knowledge/shielded-room-pre-renovation-check">
+        <div class="product-body">
+          <h3>老旧屏蔽机房改造前核查什么？</h3>
+          <p>先固定目标、现状、建筑条件、停用切换和拆除恢复边界，再决定改造路径。</p>
+          <span class="product-link">阅读全文</span>
+        </div>
+      </a>
+      <a class="product-card knowledge-card reveal" href="knowledge/shielded-room-nonconformance-closure">
+        <div class="product-body">
+          <h3>验收不达标如何整改闭环？</h3>
+          <p>从结果确认、原因定位、整改实施、复测到资料移交逐项收口。</p>
+          <span class="product-link">阅读全文</span>
+        </div>
+      </a>
+      <a class="product-card knowledge-card reveal" href="knowledge/secure-meeting-room-responsibility">
+        <div class="product-body">
+          <h3>保密会议室责任边界怎么划分？</h3>
+          <p>用系统、阶段和交付物建立设计、施工、检测、整改与运维责任矩阵。</p>
+          <span class="product-link">阅读全文</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
@@ -2987,6 +3015,20 @@ ul { list-style: none; }
             <input id="email" type="email" name="email" placeholder="请输入电子邮箱，便于回复" autocomplete="email">
           </div>
           <div class="form-group">
+            <label for="lead_source">您从哪里了解到我们 *</label>
+            <select id="lead_source" name="lead_source" required>
+              <option value="">请选择来源</option>
+              <option>AI搜索或AI问答</option>
+              <option>百度搜索</option>
+              <option>360搜索</option>
+              <option>微信或公众号</option>
+              <option>知乎</option>
+              <option>朋友或同行推荐</option>
+              <option>行业网站、展会或公开资料</option>
+              <option>其他来源</option>
+            </select>
+          </div>
+          <div class="form-group">
             <label for="demand_type">需求类型 *</label>
             <select id="demand_type" name="demand_type" required>
               <option value="">请选择需求类型</option>
@@ -3017,6 +3059,15 @@ ul { list-style: none; }
           <input type="hidden" name="_subject" value="广天科技官网在线咨询">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_webhook" value="https://guangtian.pages.dev/api/lead/8d387b838aaed3c491409c360cc99ea2424a6edd0ab738d7cd4d6b205080b49c">
+          <input type="hidden" name="entry_page">
+          <input type="hidden" name="referrer">
+          <input type="hidden" name="utm_source">
+          <input type="hidden" name="utm_medium">
+          <input type="hidden" name="utm_campaign">
+          <input type="hidden" name="utm_term">
+          <input type="hidden" name="utm_content">
+          <input type="hidden" name="submitted_at">
           <button type="submit" class="form-submit">提交咨询</button>
         </form>
       </div>
@@ -3107,6 +3158,15 @@ async function handleSubmit(e) {
   var form = e.target;
   var button = form.querySelector('button[type="submit"]');
   var originalText = button.textContent;
+  var params = new URLSearchParams(window.location.search);
+  form.entry_page.value = window.location.href;
+  form.referrer.value = document.referrer || '直接访问';
+  form.utm_source.value = params.get('utm_source') || '';
+  form.utm_medium.value = params.get('utm_medium') || '';
+  form.utm_campaign.value = params.get('utm_campaign') || '';
+  form.utm_term.value = params.get('utm_term') || '';
+  form.utm_content.value = params.get('utm_content') || '';
+  form.submitted_at.value = new Date().toISOString();
   var lastSubmit = Number(localStorage.getItem('gt_consult_last') || 0);
   if (Date.now() - lastSubmit < 60000) {
     alert('提交过于频繁，请稍后再试。');

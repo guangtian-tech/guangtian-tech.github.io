@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>屏蔽机房验收不达标，整改闭环怎么做？｜广天科技</title>
+  <meta name="description" content="说明屏蔽机房验收不达标后的结果确认、原因定位、整改方案、施工变更、复测条件、影响范围核查和资料归档步骤，避免未经定位直接返工。">
+  <meta name="keywords" content="屏蔽机房验收不达标,屏蔽室整改,屏蔽效能复测,验收整改闭环,电磁屏蔽机房验收,广天科技">
+  <link rel="icon" href="/logo.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://guangtian.pages.dev/knowledge/shielded-room-nonconformance-closure">
+  <link rel="stylesheet" href="/page.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "屏蔽机房验收不达标，整改闭环怎么做？",
+    "description": "从不合格项确认、原因定位、整改方案、施工与变更、复测、影响评估、资料归档和移交责任说明屏蔽机房整改闭环。",
+    "datePublished": "2026-09-30",
+    "dateModified": "2026-09-30",
+    "author": {"@id": "https://guangtian.pages.dev/#organization"},
+    "publisher": {"@id": "https://guangtian.pages.dev/#organization"},
+    "mainEntityOfPage": "https://guangtian.pages.dev/knowledge/shielded-room-nonconformance-closure"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "屏蔽机房验收不达标后，是否应立即全面返工？",
+        "acceptedAnswer": {"@type": "Answer", "text": "不建议未经定位就全面返工。应先确认不合格项、测试条件、测量数据和设计目标，再检查门体、接缝、滤波器、通风波导、线缆入口、接地、施工偏差及其他可能因素，形成可执行的整改方案。"}
+      },
+      {
+        "@type": "Question",
+        "name": "整改完成后按原报告再做一次检测就可以结束吗？",
+        "acceptedAnswer": {"@type": "Answer", "text": "复测是重要环节，但不等于整个闭环已经结束。还应确认整改是否影响相邻系统，检查功能恢复、隐蔽节点、设备和资料变更，并完成问题清单关闭、竣工资料更新和运维移交。"}
+      },
+      {
+        "@type": "Question",
+        "name": "是否可以通过修改检测条件来满足结果？",
+        "acceptedAnswer": {"@type": "Answer", "text": "检测条件应符合项目适用标准、设计要求和经确认的检测方案。若认为原测试条件、测量方法或边界存在偏差，应由相关方依据适用文件复核并书面确认，不能用不具代表性的条件替代实体整改。"}
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/"><span class="brand-mark">广</span><span>广天科技</span></a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="/">首页</a>
+        <a href="/about">公司简介</a>
+        <a href="/knowledge/">知识中心</a>
+        <a href="/#contact">联系咨询</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">NONCONFORMANCE CLOSURE</div>
+      <h1>屏蔽机房验收不达标，整改闭环怎么做？</h1>
+      <p>开始整改前先别急着拆，应把不合格项、原因、责任、影响范围和复测条件固定下来。</p>
+    </div>
+  </section>
+
+  <main>
+    <div class="content">
+      <nav class="breadcrumb" aria-label="面包屑">
+        <ol>
+          <li><a href="/">首页</a></li>
+          <li><a href="/knowledge/">知识中心</a></li>
+          <li aria-current="page">验收不达标整改闭环</li>
+        </ol>
+      </nav>
+
+      <section class="section">
+        <div class="answer">
+          <p><strong>直接回答：</strong>屏蔽机房验收不达标后，建议按“确认结果和责任边界、定位原因、制定并审批整改方案、实施变更、检查受影响系统、按确认条件复测、关闭问题清单、更新竣工资料”的顺序处理。未经分析就直接返工，可能扩大停用范围，却不一定解决真正原因。</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>一、先把“不达标”说具体</h2>
+        <p>“屏蔽效果不好”不是可执行的整改依据。应先核对原始记录和判定边界，明确问题发生在哪个系统、哪个接口、哪种工况，以及哪些项目已经满足要求。</p>
+        <ul class="checklist">
+          <li>适用标准、设计目标、合同要求与检测方案的版本是否一致。</li>
+          <li>问题对应的系统、部位、工况、时间和测量记录是否完整。</li>
+          <li>测试环境、设备状态、安装状态和现场条件是否具备代表性。</li>
+          <li>不合格项与暂缓项、资料缺失项、功能问题是否已经分开。</li>
+          <li>建设单位、施工、供货、检测和维护责任怎样对应。</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>二、按系统定位可能原因</h2>
+        <table class="compare">
+          <thead>
+            <tr><th>系统或部位</th><th>常见核查方向</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>屏蔽门和门框</td>
+              <td>关闭压紧、密封或导电接触、门框变形、五金传动、安装基准和周边接缝。</td>
+            </tr>
+            <tr>
+              <td>壳体和接缝</td>
+              <td>焊缝或拼装节点、搭接、紧固、防腐、二次开孔恢复和施工遗漏。</td>
+            </tr>
+            <tr>
+              <td>滤波器</td>
+              <td>型号和线路对应、安装方向、壳体连接、绝缘、屏蔽层端接、备用容量和接地。</td>
+            </tr>
+            <tr>
+              <td>通风波导窗</td>
+              <td>规格选择、边框连接、封堵、风管界面、安装偏差和成品损伤。</td>
+            </tr>
+            <tr>
+              <td>线缆和管线入口</td>
+              <td>穿越方式、数量、封堵、屏蔽处理、二次施工和未登记接口。</td>
+            </tr>
+            <tr>
+              <td>接地和等电位</td>
+              <td>连接路径、松脱、腐蚀、串接、测试条件和现场变更。</td>
+            </tr>
+            <tr>
+              <td>测试与边界条件</td>
+              <td>方案适用性、设备状态、现场条件、边界定义和数据记录一致性。</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="meta">原因定位应基于现场检查和可复核记录。仅凭经验猜测某一部件，容易造成误判和重复施工。</p>
+      </section>
+
+      <section class="section">
+        <h2>三、整改方案应写清六件事</h2>
+        <ol class="checklist">
+          <li>不合格项、原因判断、证据和需要达到的整改目标。</li>
+          <li>整改范围、施工方法、材料设备、拆除保护和恢复责任。</li>
+          <li>停用、切换、作业时段、安全措施和故障回退安排。</li>
+          <li>可能影响的相邻节点、机电系统、装饰和设备。</li>
+          <li>复测条件、检测范围、判定依据、参与方和时间安排。</li>
+          <li>变更、签证、费用、工期和未完成事项的处理方式。</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>四、施工过程要同步留证</h2>
+        <ul class="checklist">
+          <li>整改前后位置、编号、外观、连接和隐蔽节点记录。</li>
+          <li>材料设备替换、设计变更、现场签证和批准记录。</li>
+          <li>拆除、开孔、焊接、封堵、接地和防腐处理记录。</li>
+          <li>调试、试运行、异常处理、恢复和成品保护记录。</li>
+          <li>问题清单的关闭状态、未完成项和责任人。</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>五、复测不是简单“再做一遍”</h2>
+        <p>复测应覆盖问题点位和受影响范围，并保持适用的检测条件、测量方法和记录要求。若整改改变了壳体、接口、设备布置或测试环境，应重新判断复测范围和是否需要专项确认。</p>
+        <table class="compare">
+          <thead>
+            <tr><th>复测前要确认</th><th>目的</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>整改工作已完成并具备测试条件</td>
+              <td>避免把施工状态、临时措施或未恢复系统混入最终结论。</td>
+            </tr>
+            <tr>
+              <td>复测范围与原因、影响范围对应</td>
+              <td>确认原问题已处理，同时检查整改是否引入新的薄弱节点。</td>
+            </tr>
+            <tr>
+              <td>检测方案和判定依据得到确认</td>
+              <td>使原始测试、整改记录和复测结果能够形成连续证据链。</td>
+            </tr>
+            <tr>
+              <td>参与方、见证方式和记录要求明确</td>
+              <td>便于后续验收、审计、维护和责任追溯。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section">
+        <h2>六、最容易再次漏掉的事项</h2>
+        <ul class="checklist">
+          <li>只关注不合格点，没有检查相邻接缝、接口和机电恢复。</li>
+          <li>整改后没有更新竣工图、设备清单、编号和维护说明。</li>
+          <li>问题清单只有施工结果，没有原因、责任和关闭依据。</li>
+          <li>复测通过后未确认剩余问题、备件、培训和质保边界。</li>
+          <li>临时封堵、测试孔或工装没有拆除、恢复和复核。</li>
+          <li>把资料缺失当成功能问题，或把功能问题只当作资料问题处理。</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>七、资料和保密边界</h2>
+        <p>本页提供通用整改闭环框架，不提供具体项目的检测布点、频段指标、涉密参数、图纸或现场信息。实际整改和复测应以项目适用标准、正式设计、合同及检测方案为准。陕西广天科技有限公司可参与屏蔽机房、屏蔽室及相关接口系统的现场核查、整改方案梳理和检测配合。</p>
+      </section>
+
+      <section class="section">
+        <h2>常见问题</h2>
+        <div class="faq">
+          <details open>
+            <summary>整改后发现原报告对应对象已经变化，怎么处理？</summary>
+            <p>应重新确认实际系统与报告对象的对应关系，记录变更内容和影响范围，并由相关方决定是补充说明、重新检测还是调整验收边界，不能用旧报告直接覆盖新状态。</p>
+          </details>
+          <details>
+            <summary>局部更换部件后为什么还要检查周边？</summary>
+            <p>更换、拆装、焊接或开孔可能改变框架、接缝、导电接触、接地和防腐状态。周边节点属于整改影响范围，应同步检查并保留记录。</p>
+          </details>
+          <details>
+            <summary>问题清单关闭后还需要移交哪些资料？</summary>
+            <p>至少应包括整改前后记录、原因和方案、变更与批准文件、复测记录、竣工资料更新、操作维护说明、备件和质保边界。</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section">
+        <p><strong>更新日期：</strong>2026-09-30。本文由AI辅助整理并人工核验，具体整改和复测要求以项目文件、适用标准和检测方案为准。</p>
+      </section>
+
+      <section class="cta">
+        <h2>验收结果需要整改闭环？</h2>
+        <p>先准备检测记录、问题清单、设计资料和现场变更情况，再开展原因分析与整改范围核对。</p>
+        <div class="cta-actions">
+          <a class="button" href="tel:029-87800821">电话咨询 029-87800821</a>
+          <a class="button secondary" href="/?utm_source=website&amp;utm_medium=knowledge&amp;utm_campaign=nonconformance_closure#contact">提交项目需求</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© 2026 陕西广天科技有限公司</div>
+      <div><a href="/">官网首页</a> · <a href="/about">公司简介</a> · <a href="/knowledge/">更多文章</a></div>
+    </div>
+  </footer>
+</body>
+</html>
